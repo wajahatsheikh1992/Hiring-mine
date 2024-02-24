@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color) !important;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Variable Define */
+:root {
+    --primary-color: #b0b0b0;
+    --secondary-color: #1e1d23;
+    --thired-color: #4d3bdb;
+    --pramary-font: "Roboto", sans-serif;
+    --secondary-font: "Quicksand", sans-serif; 
+}
+
+/* section 1 */
+
+.navbar-brand img{
+    height: 40px;
+    width: 180px;
+    margin-left: 50px;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color: var(--secondary-color) !important;
+}
+.nav-item a{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+/* section 2 */
+
+.sec-content h1{
+    color: var(--thired-color);   
+}
+.sec-content p{
+    color: var(--secondary-color);
+}
+.form-control{
+    width:60%;
+    margin-left: -50px;
+}
+.find-btn{
+    background: var(--thired-color);
+    color: #fff;
+    width: 125px;
+    border: 1px solid var(--thired-color);
+    border-radius: 35%;
+}
+.popular{
+    color: var(--thired-color);
+}
+.feild{
+    color: var(--thired-color);
+    font-size: 1rem;
+}
+
+
